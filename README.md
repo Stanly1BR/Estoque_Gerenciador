@@ -1,4 +1,4 @@
-# Título do Projeto: Sistema Básico de Controle de Estoque de Produtos
+# Sistema Básico de Controle de Estoque de Produtos
 
 ## 1. Visão Geral do Sistema
 
