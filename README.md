@@ -92,7 +92,9 @@ O tratamento de exceções no sistema segue o padrão de lançamento (`throw`) e
                 }
             } catch (ProdutoInvalidoException e) { // [cite: 34]
                 System.err.println("Erro ao cadastrar produto: " + e.getMessage()); // [cite: 34]
-            }
+            } finally {
+                    System.out.println("--- Tentativa de cadastro de produto finalizada. ---");
+                }
             ```
         * Tratando exceções durante a venda por nome do produto:
             ```java
